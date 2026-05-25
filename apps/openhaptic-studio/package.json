@@ -13,9 +13,13 @@
     "tauri:build": "tauri build"
   },
   "dependencies": {
+    "@openhapticai/haptic-core": "*",
+    "@openhapticai/haptic-field-solver": "*",
+    "@openhapticai/haptic-simulation": "*",
     "@tauri-apps/api": "^2.0.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "react-resizable-panels": "^2.1.7"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2.0.0",

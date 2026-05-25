@@ -21,3 +21,21 @@ data/
 calibration/
 experiments/
 models/
+
+# Internal planning docs (kept locally, not for public repo)
+docs/01-requirements.md
+docs/02-technical-architecture.md
+docs/03-module-interface-design.md
+docs/04-module-plan.md
+docs/05-task-breakdown.md
+docs/06-progress-tracking.md
+docs/08-china-ai-alignment.md
+docs/10-github-launch-plan.md
+docs/11-api-draft.md
+docs/12-requirements-traceability.md
+docs/13-open-source-and-ip-strategy.md
+docs/14-product-roadmap.md
+docs/15-tactile-data-collection.md
+docs/16-master-design.md
+docs/17-visualizer-ui-design-plan.md
+docs/18-openhaptic-studio-design.md

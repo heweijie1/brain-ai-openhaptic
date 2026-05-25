@@ -16,7 +16,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "paths": {
+      "@openhapticai/haptic-core": ["../../packages/haptic-core/src/index.ts"],
+      "@openhapticai/haptic-field-solver": ["../../packages/haptic-field-solver/src/index.ts"],
+      "@openhapticai/haptic-simulation": ["../../packages/haptic-simulation/src/index.ts"]
+    }
   },
   "include": ["src"]
 }
