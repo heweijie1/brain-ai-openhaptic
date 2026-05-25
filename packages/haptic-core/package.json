@@ -1,0 +1,9 @@
+{
+  "name": "@openhapticai/haptic-core",
+  "version": "0.2.0",
+  "description": "Core schemas and validation utilities for OpenHapticAI.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@openhapticai/haptic-openxr",
+  "version": "0.2.0",
+  "description": "OpenXR / spatial computing integration layer for OpenHapticAI.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@openhapticai/haptic-core": "0.2.0"
+  }
+}

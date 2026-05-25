@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@openhapticai/haptic-core": [
+        "packages/haptic-core/src/index.ts"
+      ],
+      "@openhapticai/haptic-renderer": [
+        "packages/haptic-renderer/src/index.ts"
+      ],
+      "@openhapticai/haptic-simulation": [
+        "packages/haptic-simulation/src/index.ts"
+      ],
+      "@openhapticai/haptic-field-solver": [
+        "packages/haptic-field-solver/src/index.ts"
+      ],
+      "@openhapticai/haptic-agent": [
+        "packages/haptic-agent/src/index.ts"
+      ],
+      "@openhapticai/haptic-openxr": [
+        "packages/haptic-openxr/src/index.ts"
+      ]
+    },
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "packages/**/*.ts",
+    "examples/**/*.ts"
+  ]
+}

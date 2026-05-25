@@ -1,0 +1,12 @@
+{
+  "name": "@openhapticai/haptic-field-solver",
+  "version": "0.2.0",
+  "description": "Acoustic field solver for ultrasonic phased array focus computation.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@openhapticai/haptic-core": "0.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@openhapticai/haptic-renderer",
+  "version": "0.2.0",
+  "description": "Haptic primitive to focus-point frame renderer for OpenHapticAI.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@openhapticai/haptic-core": "0.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@openhapticai/haptic-simulation",
+  "version": "0.2.0",
+  "description": "Simulation backend and geometry helpers for OpenHapticAI.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@openhapticai/haptic-core": "0.2.0"
+  }
+}
