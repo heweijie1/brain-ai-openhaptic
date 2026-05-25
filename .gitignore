@@ -1,5 +1,6 @@
 node_modules/
 dist/
+target/
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
@@ -7,6 +8,13 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Tauri Rust build artifacts
+apps/*/src-tauri/target/
+
+# Loose source images at root (archived copies live in docs/assets/)
+12.png
+pr.png
 
 # Internal data (never commit)
 data/

@@ -6,9 +6,12 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
+    "studio:dev": "npm run tauri:dev --workspace @openhapticai/openhaptic-studio",
+    "studio:build": "npm run tauri:build --workspace @openhapticai/openhaptic-studio",
     "typecheck": "tsc --noEmit",
     "build": "tsc -p tsconfig.json"
   },

@@ -55,8 +55,9 @@ OpenHapticAI 的公开仓库定位为原创框架和学习型开源底座：
 
 ## 短期目标
 
-短期目标是完成第一个可演示硬件产品原型：
+短期目标是先完成 `OpenHapticAI Studio` 桌面端工作台，再逐步推进第一个可演示硬件产品原型：
 
+- 建立本地仿真、参数调试、AI 触觉意图验证和安全检查工作台。
 - 实现空中单点触觉和虚拟按钮触觉。
 - 支持 3-4 种基础材质触觉表达：衣服、皮肤、头发、石头。
 - 建立低成本 DIY 触觉数据采集硬件，用于采集力度、接触时间、滑动速度、振动和材质标签。
@@ -95,6 +96,11 @@ brain-ai-openhaptic/
     13-open-source-and-ip-strategy.md
     14-product-roadmap.md
     15-tactile-data-collection.md
+    16-master-design.md
+    17-visualizer-ui-design-plan.md
+    18-openhaptic-studio-design.md
+  apps/
+    openhaptic-studio/
   packages/
     haptic-core/
     haptic-field-solver/
@@ -114,17 +120,27 @@ brain-ai-openhaptic/
     ar-hand-tracking-demo/
 ```
 
+## OpenHapticAI Studio 工作台预览
+
+> 当前版本为静态骨架，Tauri v2 原生桌面窗口，接入仿真引擎进行中。
+
+![OpenHapticAI Studio 工作台](docs/assets/studio-preview.png)
+
 ## 当前阶段
 
-当前项目处于 **V0：开源占位与架构设计阶段**。
+当前项目处于 **V1.5：OpenHapticAI Studio 桌面端工作台骨架已完成**。
 
-优先目标：
+已完成：
 
-1. 完成项目愿景、需求、技术架构和模块边界设计。
-2. 建立触觉渲染 SDK 的核心抽象。
-3. 明确通用超声相控阵、自研硬件和兼容硬件的 backend 适配路线。
-4. 规划 AI Agent、国产大模型、OpenXR/AR 接入方式。
-5. 建立任务分解和进度追踪文档。
+1. ✅ 创建 `apps/openhaptic-studio` — Tauri v2 + React + TypeScript + Vite 骨架。
+2. ✅ 实现左资源栏、中央声场画布、右参数面板和底部日志的工作台布局。
+3. ✅ 原生桌面窗口可运行（`npx tauri dev`）。
+
+下一步：
+
+4. 接入现有 `haptic-field-solver` 和 `haptic-simulation`。
+5. 在 Studio 内验证 AI 触觉意图到仿真帧的数据流。
+6. Web 页面降级为官网、文档入口和轻量展示页。
 
 ## 许可证建议
 
